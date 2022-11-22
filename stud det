@@ -1,0 +1,13 @@
+class Student:
+    def getStudentDetails(self):
+        self.rollno=input("enter roll number")
+        self.name=input("enter name")
+        self.class=int(input("class"))
+    def printResult(self):
+        self.percentage=(int)(self.physics+self.chemistry+self.maths)/300*100);
+        print(self.rollno,self.name,self.class)
+S1=Student()
+S1.getStudentDetails()
+
+print("result:")
+S1.printResult()
